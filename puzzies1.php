@@ -5,7 +5,7 @@ $prime=6;
 while ($prime<10001) {
 $n+=2;
 $m=3;	
-	while ($m<=$n/2) {
+	while ($m<=sqrt($n) {
 		$primeFound=true;
 		if ($n%$m!=0) {
 		$m+=2;
